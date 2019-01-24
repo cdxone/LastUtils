@@ -47,6 +47,7 @@ public class ScreenUtils {
 
     /**
      * 获得屏幕的逻辑密度，这个一个和密度无关的像素单位。
+     * 获得密度比。
      */
     public static float getDensity(Context context) {
         if (context != null) {
